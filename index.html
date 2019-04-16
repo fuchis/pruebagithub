@@ -8,6 +8,58 @@
 </head>
 <body>
 
+    <style>
+
+        body {
+            background: red;
+        }
+
+        .btn {
+            color: white;
+        }
+        /* Small devices (smartphones, 576px and up) 
+            Dispositivos con 0px de largo hasta 575px de largo
+        */
+        @media (min-width: 576px) { 
+            body {
+                background: orange;
+            } 
+        }
+
+        /* Medium devices (tablets, 768px and up)
+           Dispositivos con 768px de largo hasta 991px de largo
+        */
+        @media (min-width: 768px) {
+            body {
+                background: yellow;
+            }
+        }
+        /* Large devices (desktops, 992px and up) 
+           Dispositivos con 992px de largo hasta 1199px de largo
+        */
+        @media (min-width: 992px) { 
+            body {
+                background: green;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) 
+           Dispositivos con 1200px de largo en adelante
+        */
+        @media (min-width: 1200px) {
+            body {
+                background: blue;
+            }
+
+            .btn {
+                color: black;
+            }
+        }
+
+    
+    </style>
+
+    <button class="btn">Enviar</button>
     
     
 </body>
